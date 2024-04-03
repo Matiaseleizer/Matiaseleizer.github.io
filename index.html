@@ -9,10 +9,10 @@
         <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
         <title>Portafolio</title>
     </head>
-    <body>
+    <body class="b">
 
         <!--Barra de navegación-->
-        <nav class="navbar navbar-expand-lg bg-body-tertiary sticky-top">
+        <nav class="navbar navbar-expand-lg sticky-top">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">Matias Altamirano</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -21,24 +21,17 @@
               <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link active" aria-current="page" href="#">Inicio</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link" href="#">Link</a>
-                  </li>
-                  <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Dropdown
-                    </a>
-                    <ul class="dropdown-menu">
-                      <li><a class="dropdown-item" href="#">Action</a></li>
-                      <li><a class="dropdown-item" href="#">Another action</a></li>
-                      <li><hr class="dropdown-divider"></li>
-                      <li><a class="dropdown-item" href="#">Something else here</a></li>
-                    </ul>
+                    <a class="nav-link" href="#formacion">Formación</a>
                   </li>
                   <li class="nav-item">
-                    <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+                    <a class="nav-link" href="#experiencia">Experiencia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Portafolio</a>
+                  </li> 
                   </li>
                 </ul>
               </div>
@@ -47,53 +40,62 @@
         <!--Fin barra de navegación-->
         
         <!--Sección inicio-->
-        <div class=" resumen container-fluid bg-info-subtle">
-            <h1>Curriculum</h1>
+        <div class="container-fluid mt-5 mb-5 text-white">
+          <div class="row">
+            <div class="col">
+              <img class="matias1" src="assets/img/matias1.jpg" alt="">
+            </div>
+            <div class="resumen col me-4">
+              <p class="mt-5 ms-5 me-4">Soy un ingeniero mecánico automotriz altamente responsable y con excelentes habilidades de 
+                comunicación.<br> Busco oportunidades para aplicar mis conocimientos y experiencia en el sector 
+                automotriz,<br> brindando atención al cliente y diagnóstico, así como aportando a proyectos de 
+                ingeniería.<br> Mi objetivo es contribuir al éxito de una organización mientras desarrollo mi crecimiento 
+                profesional.
+            </p>
+            
+            <h3 class="ms-5 mt-5">Datos personales</h3>
+                <ul class="ms-5 mb-0">
+                    <li>Nombre: Matias Altamirano</li>
+                    <li>Lugar de nacimiento: Rancagua,Chile</li>
+                    <li>Fecha de nacimiento: 05/01/1999</li>
+                </ul>
+            </div>
+          </div>
         
-        <img src="assets/img/descarga.jpg" alt="foto de perfil" width="200" height="130"/>
-        
-        <h2>Matias Altamirano</h2>
-       
-        <h3>Resumen</h3>
-       
-        <p>Soy un ingeniero mecánico automotriz altamente responsable y con excelentes habilidades de 
-            comunicación.<br> Busco oportunidades para aplicar mis conocimientos y experiencia en el sector 
-            automotriz,<br> brindando atención al cliente y diagnóstico, así como aportando a proyectos de 
-            ingeniería.<br> Mi objetivo es contribuir al éxito de una organización mientras desarrollo mi crecimiento 
-            profesional.
-        </p>
-        
-        <h3>Datos personales</h3>
-            <ul class="mb-0">
-                <li>Nombre: Matias Altamirano</li>
-                <li>Lugar de nacimiento: Rancagua,Chile</li>
-                <li>Fecha de nacimiento: 05/01/1999</li>
-            </ul>
-        </div>
         <!--Fin sección inicio-->
         <!--Sección de formación-->
-            <div class="container-fluid bg-danger-subtle">
-                <h3>Formación</h3>
-            <p class="mb-0">
+          <div id="formacion" class="row text-center mt-3">
+            <div class="col pformacion ms-3">
+              <h3 class="mb-2">Formación</h3>
+            <p>
                 Realicé mi enseñanza media en el colegio Mistral ubicado en las cabras,<br>
                 egresé el año 2016 y el año 2017 comencé mis estudios superiores en la institucion Duoc UC<br>
                 sede Melipilla en la carrera de ingeniería en mecánica automotriz y autotrónica.<br>
                 egresé el año 2021 con un excelente rendimiento.
             </p>
             </div>
+            <div class="col ms-3 ps-0 pe-5">
+              <img class="sede" src="assets/img/sede.jpg" alt="">
+            </div>
+          </div>
+        
         <!--Fin sección de formación-->
         <!--Experiencia-->
-          <div class="container-fluid bg-success-subtle">
-                <h3>Experiencia</h3>
-            <ol class="mb-0">
+          <div id="experiencia" class="row mt-3">
+            <div class="col">
+              <img class="experiencia" src="assets/img/experiencia.jpg" alt="">
+            </div>
+            <div class="exp col me-3">
+              <h3 class="text-center mb-4 mt-3">Experiencia</h3>
+            <ol>
                 <li>Alarife [Mayo 2023 - Actualidad]<p>Ayudar al topógrafo a realizar tareas de medición.</p></li>
                 <li>Chofer estafeta [Septiembre 2022 - Mayo 2023]<p>Conducción por la Ruta 66, traslado de personal y Apoyo como ayudante de laboratorio.</p></li>
                 <li>Vendedor de repuestos [Diciembre 2020 - Febrero 2021]<p>Atención al cliente, venta, manejo de stock y Resolución de problemas.</p></li>
                 <li>Mecánico general [Diciembre 2018 - Febrero 2019]<p>Atención al cliente, diagnóstico y reparación de vehículos livianos.</p></li>
             </ol>
+            </div>
           </div>
+        </div>  
         <!--Fin sección experiencia-->
-        
-        <a link rel="#" href="portafolio.html" target="_blank">Portafolio</a>
     </body>
 </html>
