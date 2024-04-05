@@ -1,34 +1,34 @@
-.matias1{
-    border-radius: 5rem;
-}
-.sede{
-    border-radius: 5rem;
-}
-.experiencia{
-    border-radius: 5rem;
-}
-
 .b{
     background-color: #292F36;
-}
-
-.resumen{
-    background-color: #4ECDC4;
-    border-radius: 5rem;
-}
-
-.pformacion{
-    align-content: center;
-    background-color: #FF6B6B;
-    border-radius: 5rem;
-}
-
-.exp{
-    background-color: #FFE66D;
-    border-radius: 5rem;
 }
 
 nav{
     background-color: #F7FFF7;
 }
+img{
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
 
+.inicio{
+    background-color: #4ECDC4;
+    border-radius: 10%;
+}
+
+.formacion{
+    background-color: #FF6B6B;
+    border-radius: 10%;
+}
+
+.exp{
+    background-color: #FFE66D;
+    border-radius: 10%;
+}
+
+.contenedor{
+    width: 50vh;
+    height: 50vh;
+    margin: auto;
+    
+}
