@@ -1,0 +1,112 @@
+body{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 0px;
+    justify-content: center;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 50px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: black;
+    width: 1280px;
+    height: 73px;
+    color: white;
+}
+
+aside{
+    height: 727px;
+}
+
+.section1{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 1280px;
+    height: 348px;
+    background-color: black;
+    color: white;
+}
+
+.parrafo{
+    width: 475px;
+    height: 197px;
+}
+
+p{
+    text-align: justify;
+}
+
+.imagen2{
+    width: 399px;
+    height: 237px;
+}
+
+.caracteristicas{
+    background-color: #1e1a13;
+    text-align: center;
+    width: 1280px;
+    height: 348px;
+    color: white;
+}
+
+.p2{
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.p3{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.cajas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: -93px;
+}
+
+.galeria{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1%;
+    background-color: black;
+    width: 1280px;
+    height: 348px;
+}
+
+.iguana2{
+    width: 316px;
+    height: 202px;
+}
+.iguana3{
+    width: 316px;
+    height: 202px;
+}
+.iguana4{
+    width: 316px;
+    height: 202px;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1e1a13;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    width: 1280px;
+    height: 102px;
+}
+
+a:hover{
+    color: red;
+}
+

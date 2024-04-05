@@ -1,0 +1,122 @@
+.titulo{
+    color: rgb(237, 245, 8);
+    margin-left: 20%;
+    margin-right: 20%;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
+    padding-left: 3%;
+    background-image: url(trueno.jpg);   
+}
+
+h3{
+    margin-top: 0%;
+}
+
+h1{
+    margin-bottom: 0%;
+}
+
+.seccion1{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 280px;
+    background-color: rgba(160, 34, 233, 0.458);
+}
+
+.articulo1{
+    margin-left: 400px;
+   text-align: center;
+   padding-top: 100px;
+   border-top: 100px;
+   max-width: 150px;
+
+}
+.articulo2{
+    position: relative;
+    top: -150px;
+    left: 80px;
+    padding: 10px;
+    height: 215px;
+}
+
+.imagen1{
+    width: 300px;
+    height: 215px;
+    border-radius: 20%;
+    float: left;
+} 
+
+.seccion2{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 280px;
+    background-color: rgba(253, 247, 74, 0.458);
+}
+
+.articulo3{
+    margin-left: 400px;
+   text-align: center;
+   padding-top: 100px;
+   border-top: 100px;
+   max-width: 170px;
+
+}
+.articulo4{
+    position: relative;
+    top: -150px;
+    left: 80px;
+    padding: 10px;
+    height: 215px;
+ }
+
+ .imagen2{
+    width: 300px;
+    height: 215px;
+    border-radius: 20%;
+    float: left;        
+ }
+
+ .seccion3{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 280px;
+    background-color:  rgba(160, 34, 233, 0.458);
+}
+
+.articulo5{
+    margin-left: 400px;
+   text-align: center;
+   padding-top: 100px;
+   border-top: 100px;
+   max-width: 170px;
+
+}
+.articulo6{
+    position: relative;
+    top: -150px;
+    left: 80px;
+    padding: 10px;
+    height: 215px;
+ }
+
+ .imagen3{
+    width: 300px;
+    height: 215px;
+    border-radius: 20%;
+    float: left;        
+ }
+
+ footer{
+    margin-left: 20%;
+    margin-right: 20%;
+    height: 280px;
+ }
+
+ .text{
+    position: relative;
+    left: -90px;
+    margin-top: 0%;
+    font-weight: 200;
+   
+
+ }
