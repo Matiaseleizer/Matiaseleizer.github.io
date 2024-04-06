@@ -36,3 +36,26 @@ img{
 .clic{
     font-size: small;
 }
+
+.datos{
+    background-color: #4ECDC4;
+}
+
+.contacto{
+    background-color: #3a9b95;
+}
+.email{
+    background-color: #33827d;
+}
+
+a{
+    color: black;
+}
+
+a:hover{
+    color: #FFE66D;
+}
+
+a:active{
+    color: white;
+}
